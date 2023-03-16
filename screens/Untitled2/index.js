@@ -5,16 +5,6 @@ const DATA = [{
   title: 'John Doe',
   image: 'https://i.imgur.com/8ZfWgpy.jpg',
   message: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.'
-}, {
-  id: '3ac68afc-c605-48d3-a4f8-fbd91aa97f63',
-  title: 'Mary Jane',
-  image: 'https://i.imgur.com/BBLwOVm.png',
-  message: 'Nam eleifend tellus dapibus, mollis orci, elementum enim.'
-}, {
-  id: '58694a0f-3da1-471f-bd96-145571e29d72',
-  title: 'Sean Paul',
-  image: 'https://i.imgur.com/MIapmvB.png',
-  message: 'Duis eget augue ornare, dignissim quam, consequat tellus.'
 }];
 
 const ItemComponent = ({
@@ -28,8 +18,6 @@ const ItemComponent = ({
     }} />
     <View style={styles.messageContainer}>
       <Text style={styles.title}>{item.title}</Text>
-      <Text style={styles.message}>{item.message}</Text>
-
     </View>
   </View>;
 };
